@@ -9,7 +9,7 @@ package com.practice.demo;
 public class OuterClass {
 
     //内部类
-    private class InnerClass{
+    private static class InnerClass{
         public InnerClass(){
             System.out.println("innerCLass create");
         }
@@ -22,5 +22,6 @@ public class OuterClass {
 
     public static void main(String[] args) {
         OuterClass outerClass = new OuterClass();
+        InnerClass innerClass = new InnerClass();
     }
 }
