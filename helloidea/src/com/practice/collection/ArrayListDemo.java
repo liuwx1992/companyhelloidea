@@ -13,6 +13,7 @@ import java.util.List;
 public class ArrayListDemo {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
+        System.out.println(list.contains(11));
         list.add(12);
         list.add(17);
         list.add(15);
